@@ -13,9 +13,11 @@ public class Hooks {
 
     public UiAutomationUtils utils = new UiAutomationUtils();
 
+
     @BeforeSuite
     public void beforeSuite(){
         UiAutomationUtils.readConfig();
+
 
     }
 
